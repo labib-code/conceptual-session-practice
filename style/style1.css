@@ -1,0 +1,72 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+.doit{
+    color: blue;
+    /* cursor: pointer; */
+    cursor: url(./images/product-1.jpg),auto;
+}
+
+.box{
+    padding: 20px;
+    background-color: rgb(73, 73, 186);
+    width: 50%;
+}
+
+.box2{
+    background-color: brown;
+    /* margin: 10px; */
+}
+
+.box3{
+    background-color: coral;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: stretch; */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.tumi{
+    padding: 10px;
+    background-color: cadetblue;
+    width: 200px;
+    /* height: 20%; */
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.ami{
+
+    background-color: burlywood;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.she{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgray;
+
+}
+
+.nijetry{
+    display: flex;
+    justify-content: right;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: first baseline; */
+    height: 250px;
+    align-items: center;
+
+}
