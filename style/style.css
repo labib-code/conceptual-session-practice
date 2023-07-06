@@ -44,17 +44,27 @@
 }
 .test{
     margin-bottom: 7px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lulu{
+    font-size: 16px;
+    margin-bottom: 7px;
 }
 
 .btn{
-    margin-top: 7px;
+    margin-top: 9px;
     background-color: rgb(245, 25, 25);
     color: aliceblue;
-    padding: 9px;
+    padding: 10px 20px;
     border-style: none;
     border-radius: 1px 1px 1px 1px;
+    cursor:pointer;
 
 }
+
+
 
 .banner-img{
     width: 300px;
@@ -69,3 +79,52 @@
     /* background-color: #000; */
     color: white;
 }
+
+.h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.h2{
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 30px;
+
+}
+.main-div{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+    
+}
+#lol{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.chobi{
+    margin-right: 370px;
+}
+
+.div-des{
+    margin-right: 70px;
+    margin-bottom: 65px;
+}
+
+.photo{
+    width: 300px;
+    
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
